@@ -1,129 +1,114 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Insert URL</title>
-  </head>
-  <body
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Insert URL</title>
+</head>
+<body
+  style="
+    height: 150px;
+    background: #cecece;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+  "
+>
+  <input
+    type="text"
+    id="urlInput"
+    placeholder="Enter URL"
     style="
-      height: 100px;
-      background: #cecece;
-      margin: 0 auto;
-      text-align: center;
-      padding: 10px;
+      padding: 6px;
+      border: none;
+      margin-bottom: 10px;
+      background: white;
+      border-radius: 10px;
+      border-left: 6px solid red;
+    "
+  />
+  <button
+    id="insertButton"
+    style="
+      padding: 6px;
+      border: none;
+      background: #f2f2f2;
+      border-radius: 10px;
+      border-left: 6px solid #8097ff;
     "
   >
-    <input
-      type="text"
-      id="urlInput"
-      placeholder="Enter URL"
-      style="
-        padding: 6px;
-        border: none;
-        margin-bottom: 15px;
-        background: white;
-        border-radius: 10px;
-        border-left: 6px solid red;
-      "
-    />
-    <button
-      id="insertButton"
-      style="
-        padding: 6px;
-        border: none;
-        margin-bottom: 15px;
-        background: #f2f2f2;
-        border-radius: 10px;
-        border-left: 6px solid #8097ff;
-      "
-    >
-      Wayback GO
-    </button>
-    <button
-      id="insertButton2"
-      style="
-        padding: 6px;
-        border: none;
-        margin-bottom: 15px;
-        background: #f2f2f2;
-        border-radius: 10px;
-        border-left: 6px solid #8097ff;
-      "
-    >
-      Wayback GO * exts
-    </button>
+    Wayback GO
+  </button>
+  <button
+    id="insertButton2"
+    style="
+      padding: 6px;
+      border: none;
+      background: #f2f2f2;
+      border-radius: 10px;
+      border-left: 6px solid #8097ff;
+    "
+  >
+    Wayback GO * exts
+  </button>
 
-    <button
-      id="insertButton3"
-      style="
-        padding: 6px;
-        border: none;
-        margin-bottom: 15px;
-        background: #f2f2f2;
-        border-radius: 10px;
-        border-left: 6px solid #8097ff;
-      "
-    >
-      Otx subdomain
-    </button>
+  <button
+    id="insertButton3"
+    style="
+      padding: 6px;
+      border: none;
+      background: #f2f2f2;
+      border-radius: 10px;
+      border-left: 6px solid #8097ff;
+    "
+  >
+    Otx subdomain
+  </button>
 
-    <button
-      id="insertButton4"
-      style="
-        padding: 6px;
-        border: none;
-        margin-bottom: 15px;
-        background: #f2f2f2;
-        border-radius: 10px;
-        border-left: 6px solid #8097ff;
-      "
-    >
-      Otx domain
-    </button>
+  <button
+    id="insertButton4"
+    style="
+      padding: 6px;
+      border: none;
+      background: #f2f2f2;
+      border-radius: 10px;
+      border-left: 6px solid #8097ff;
+    "
+  >
+    Otx domain
+  </button>
 
-    <br />
+  <br />
 
-    <button
-      id="insertButton5"
-      style="
-        padding: 6px;
-        border: none;
-        margin-bottom: 15px;
-        background: #f2f2f2;
-        border-radius: 10px;
-        border-left: 6px solid #8097ff;
-      "
-    >
-      Urlscan Go
-    </button>
+  <button
+    id="insertButton5"
+    style="
+      padding: 6px;
+      border: none;
+      background: #f2f2f2;
+      border-radius: 10px;
+      border-left: 6px solid #8097ff;
+    "
+  >
+    Urlscan Go
+  </button>
 
-    <br />
+  <button
+    id="insertButton6"
+    style="
+      padding: 6px;
+      border: none;
+      background: #f2f2f2;
+      border-radius: 10px;
+      border-left: 6px solid #8097ff;
+    "
+  >
+    Virustotal Go
+  </button>
 
-    <button
-      id="insertButton6"
-      style="
-        padding: 6px;
-        border: none;
-        margin-bottom: 15px;
-        background: #f2f2f2;
-        border-radius: 10px;
-        border-left: 6px solid #8097ff;
-      "
-    >
-      Virustotal Go
-    </button>
+  <br />
 
-    <a
-      href="https://x.com/0xhussein"
-      target="_blank"
-      style="padding: 5px; display: block; color: #3f51b5"
-      >0xHussein</a
-    >
-    <a
-      href="https://x.com/M7moud_mk99"
-      target="_blank"
-      style="padding: 5px; display: block; color: #3f51b5"
-      >M7moudx22</a
-    >
-    <script src="popup.js"></script>
-  </body>
+  <!-- Скрытый input для загрузки файлов -->
+  <input type="file" id="fileInput" accept=".txt" style="display: none;" />
+  <script src="popup.js"></script>
+</body>
 </html>
