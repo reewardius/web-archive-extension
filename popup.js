@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Добавляем кнопку импорта (создаем ее в JS, так как в HTML ее нет)
   const importButton = document.createElement("button");
   importButton.id = "importButton";
-  importButton.innerText = "Импортировать список";
+  importButton.innerText = "Import Hosts List";
   importButton.style = `
     padding: 6px;
     border: none;
